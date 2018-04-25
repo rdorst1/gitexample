@@ -8,6 +8,6 @@ app.get('/hello', (req, res) => {
 
 const port = process.env.PORT || 8080;
 
-app.listen(8080, () => {
+app.listen(port, () => {
     console.log('server is ready')
 });
